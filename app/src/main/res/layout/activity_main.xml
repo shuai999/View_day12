@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.view.day12.SlidingMeun xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_sliding_menu"
+    app:meunRightMargin="62dp"
+    android:background="@drawable/home_menu_bg"
+    tools:context="com.view.day12.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <include layout="@layout/layout_home_menu"/>
+        <include layout="@layout/layout_home_content"/>
+    </LinearLayout>
+</com.view.day12.SlidingMeun>
